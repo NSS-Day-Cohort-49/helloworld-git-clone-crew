@@ -153,3 +153,8 @@ main {
     margin: 2em;
 }
 
+.copyright_info {
+    text-align: center;
+    font-size: 15px;
+}
+
