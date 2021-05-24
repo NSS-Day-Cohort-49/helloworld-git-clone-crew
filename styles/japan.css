@@ -170,3 +170,10 @@ body {
             text-align:center;
             border: solid #008000 2px;
         }
+
+        /* Footer */
+
+        .copyright_info {
+            text-align: center;
+            font-size: 15px;
+        }
