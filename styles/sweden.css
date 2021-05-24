@@ -1,0 +1,15 @@
+.top {
+    display: flex;
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
+    border: solid green 2px;
+    padding: 1em;
+}
+.list_info {
+    flex-grow: 1;
+    margin: 2em;
+}
