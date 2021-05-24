@@ -9,7 +9,7 @@
     border: solid green 2px;
     padding: 1em;
 }
-.list_info {
+.lists__info {
     flex-grow: 1;
     margin: 2em;
 }
