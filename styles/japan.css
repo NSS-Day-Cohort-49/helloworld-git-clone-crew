@@ -66,8 +66,16 @@ body {
         height: auto;
         cursor: pointer;
         mix-blend-mode: multiply;
-        flex-basis: 40%
+        flex-basis: 40%;
         /* mix-blend-mode: multiply; makes the white space in logo transparent and not show */
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+        cursor: pointer;
+        mix-blend-mode: multiply;
+        flex-basis: 40%;
     }
     
     /* Navbar */
@@ -88,7 +96,7 @@ body {
         padding: 8px 12px;
         font-size: 35px;
         text-decoration: none;
-        color: white;
+        color: yellow;
     }
     
     .nav_button a {
@@ -97,20 +105,20 @@ body {
     
     /* mouse over link */
     .nav_button a:hover {
-        color: white;
-        border-bottom: 2px solid white;
+        color: salmon;
+        border-bottom: 2px solid salmon;
     }
     
     /* Link Differences */
     
     /* unvisited link */
     a:link {
-        color: white;
+        color: rgb(207, 197, 197);
     }
      
     /* visited link */
     a:visited {
-        color: black;
+        color: white;
     }
     
     /* selected link */
@@ -151,4 +159,14 @@ body {
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+        }
+
+        .countryname {
+            background: rgb(121, 121, 172);
+            margin-top: 20px;
+            font-size: 36px;
+            flex: 3;
+            opacity: 0.9;
+            text-align:center;
+            border: solid #008000 2px;
         }
