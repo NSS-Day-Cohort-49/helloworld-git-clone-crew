@@ -6,8 +6,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 1em;
-    border: solid green 2px;
+    border: solid #008000 2px;
     padding: 1em;
+    background-color: salmon;
 }
 .lists__info {
     flex-grow: 1;
