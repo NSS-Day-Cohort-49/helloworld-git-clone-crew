@@ -1,0 +1,149 @@
+.top {
+    display: flex;
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
+    border: solid #008000 2px;
+    padding: 1em;
+    background-color: salmon;
+}
+.lists__info {
+    flex-grow: 1;
+    margin: 2em;
+}
+body {
+    /* The image used ,will need to save photos to images folder */
+      background-image: url("/images/japan.background.jpeg");
+    
+      /* Set a specific height */
+      min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    * {
+        font-family: 'Satisfy', cursive;
+    }
+    
+    /* Landing Page */
+    
+    .parallax {
+        /* The image used */
+          background-image: url("/images/travel.jpg");
+        
+          /* Set a specific height */
+          min-height: 500px;
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+    /* Header */
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .top {
+        flex: 1;
+    }
+    
+    .logo {
+        width: 200px;
+        height: auto;
+        cursor: pointer;
+        mix-blend-mode: multiply;
+        /* mix-blend-mode: multiply; makes the white space in logo transparent and not show */
+    }
+    
+    /* Navbar */
+    
+    .nav_bar {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .nav_button {
+        display: inline-block;
+        align-items:flex-end;
+        justify-content: flex-end;
+        position: relative;
+        cursor: pointer;
+        padding: 8px 12px;
+        font-size: 35px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nav_button a {
+        align-items: flex-end;
+    }
+    
+    /* mouse over link */
+    .nav_button a:hover {
+        color: white;
+        border-bottom: 2px solid black;
+    }
+    
+    /* Link Differences */
+    
+    /* unvisited link */
+    a:link {
+        color: black;
+    }
+     
+    /* visited link */
+    a:visited {
+        color: black;
+    }
+    
+    /* selected link */
+    a:active {
+        color: rgb(60, 60, 153);
+    }
+    
+    .countryImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin: 0; 
+        border-radius: 50%;
+        /* background-size: cover; */
+        /* background-color: #cccccc; */
+    }
+    .countryImg img {
+        width: 50em;
+        height: auto;
+        margin: 0; 
+        border-radius: 50%;
+    }
+    
+    /* Body */
+    
+    body {
+        /* The image used ,will need to save photos to images folder */
+          background-image: url("/images/japan.background.jpeg");
+        
+          /* Set a specific height */
+          min-height: 500px;
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
