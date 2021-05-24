@@ -1,3 +1,7 @@
+.header {
+    color:white;
+    display: flex;
+}
 .top {
     display: flex;
 }
@@ -9,10 +13,12 @@
     border: solid #008000 2px;
     padding: 1em;
     background-color: salmon;
+    opacity: 0.9;
 }
 .lists__info {
     flex-grow: 1;
     margin: 2em;
+
 }
 body {
     /* The image used ,will need to save photos to images folder */
@@ -26,6 +32,7 @@ body {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      color: white;
     }
     * {
         font-family: 'Satisfy', cursive;
@@ -49,12 +56,8 @@ body {
         
     /* Header */
     
-    .header {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .top {
+        display: flex;
         flex: 1;
     }
     
@@ -63,6 +66,7 @@ body {
         height: auto;
         cursor: pointer;
         mix-blend-mode: multiply;
+        flex-basis: 40%
         /* mix-blend-mode: multiply; makes the white space in logo transparent and not show */
     }
     
@@ -72,6 +76,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        color:white;
     }
     
     .nav_button {
@@ -93,14 +98,14 @@ body {
     /* mouse over link */
     .nav_button a:hover {
         color: white;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid white;
     }
     
     /* Link Differences */
     
     /* unvisited link */
     a:link {
-        color: black;
+        color: white;
     }
      
     /* visited link */
