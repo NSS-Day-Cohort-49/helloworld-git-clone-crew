@@ -1,0 +1,86 @@
+* {
+    font-family: 'Satisfy', cursive;
+    padding: 2px;
+    margin: 2px;
+}
+
+/* Landing Page */
+
+.parallax {
+/* The image used */
+  background-image: url("/images/travel.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+
+.top {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; makes the white space in logo transparent and not show */
+}
+
+.nav__bar {
+    flex: 3;
+}
+
+.nav__bar nav {
+    align-items: flex-end;
+}
+
+.nav_button {
+    display: inline-block;
+    align-items:flex-end;
+    justify-content: flex-end;
+    position: relative;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_button a {
+    align-items: flex-end;
+}
+
+/* mouse over link */
+.nav_button a:hover {
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+/* Link Differences */
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+ 
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: rgb(60, 60, 153);
+}
